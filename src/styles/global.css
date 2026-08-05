@@ -27,4 +27,6 @@
 .press-kit-action{display:flex;flex-direction:column;max-width:250px;gap:8px}
 .press-kit-action .button{width:100%}
 .press-kit-action small{color:var(--muted);font-size:10px;line-height:1.5}
+.asset-list>div>a{width:40px;height:40px;display:grid;place-items:center;border:1px solid var(--gold);color:var(--gold);transition:.2s}
+.asset-list>div>a:hover,.asset-list>div>a:focus-visible{background:var(--gold);color:var(--ink)}
 @media(max-width:800px){.download-actions{width:100%;margin-top:28px;display:grid}.download-actions .button,.press-kit-action{width:100%;max-width:none}.press-kit-action small{font-size:11px}}
