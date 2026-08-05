@@ -61,7 +61,7 @@ export const copy = {
     short:'DULAN is a story-driven Big Two (Chinese Poker) game. Buried in debt, you enter an underground casino and face five distinct opponents, each with their own personality, room, music, and dialogue. Instead of reinventing Big Two with roguelike or deckbuilding mechanics, DULAN keeps the original rules intact and wraps a full narrative adventure around them. One-time-use skill cards can turn a losing hand around, and how you play determines the ending you discover. Built solo in Taiwan, DULAN supports English, Traditional Chinese, and Japanese, with full controller support.',
     about:'ZeppelinTsai is a solo indie developer based in Taiwan. DULAN is their first commercial release — designed, written, and programmed from the ground up, with AI-assisted art and music.',
     factLabels:['Title','Genre','Engine','Platform','Price','Languages','Release date','Store page'], factValues:['DULAN','Story-driven Big Two','Phaser 3 + Vite + TypeScript, packaged via Electron','Windows / itch.io','US$3.99 (launch offer US$2.99)','English, Traditional Chinese, Japanese','To be announced','itch.io'],
-    spoiler:'Non-spoiler only — do not include ending CG', footer:'A story-driven Big Two game by ZeppelinTsai.',
+    footer:'A story-driven Big Two game by ZeppelinTsai.',
   },
   'zh-tw': {
     nav:['首頁','故事','人物','系統','下載'], label:'繁體中文', subtitle:'賭爛', tagline:'牌可以重洗，人生不一定。',
@@ -75,7 +75,7 @@ export const copy = {
     short:'DULAN 是一款劇情式大老二遊戲。負債累累的你踏入地下賭場，迎戰五名個性、房間、音樂與對話都截然不同的對手。遊戲不以 roguelike 或牌組構築重新發明大老二，而是完整保留原版規則，讓一場完整的敘事冒險在牌桌上展開。一次性技能卡能讓敗局出現轉機，而你的打法也將帶你走向不同結局。本作由台灣獨立開發者一人製作，支援英文、繁體中文、日文與完整控制器操作。',
     about:'ZeppelinTsai 是來自台灣的個人獨立開發者。DULAN 是其第一款商業作品，從設計、劇本到程式皆由一人從零完成，美術與音樂則運用 AI 輔助製作。',
     factLabels:['遊戲名稱','類型','引擎','平台','價格','語言','發售日期','商店頁面'], factValues:['DULAN','劇情式大老二','Phaser 3 + Vite + TypeScript，Electron 封裝','Windows / itch.io','US$3.99（首發優惠 US$2.99）','英文、繁體中文、日文','待公布','itch.io'],
-    spoiler:'僅限無劇透內容——請勿放入結局 CG',footer:'ZeppelinTsai 製作的劇情式大老二遊戲。',
+    footer:'ZeppelinTsai 製作的劇情式大老二遊戲。',
   },
   ja: {
     nav:['ホーム','ストーリー','キャラクター','システム','ダウンロード'], label:'日本語', subtitle:'クソ賭け', tagline:'カードは配り直せる。人生は、そうとは限らない。',
@@ -89,7 +89,7 @@ export const copy = {
     short:'DULANは、物語仕立ての大富豪ゲーム。借金まみれのあなたは地下カジノへ足を踏み入れ、性格も、部屋も、音楽も、会話も異なる五人の相手と勝負する。ローグライクやデッキ構築に作り変えることなく、おなじみのルールをそのままに、一篇の物語を卓上で描く。使い切りのスキルカードが劣勢を覆し、プレイの選択が異なる結末へ導いていく。台湾の個人開発者が一人で制作。英語、繁体字中国語、日本語、コントローラー操作に対応。',
     about:'ZeppelinTsaiは台湾を拠点に活動する個人インディー開発者。DULANは初の商業作品であり、企画、シナリオ、プログラムを一から手がけ、美術と音楽にはAI支援を活用している。',
     factLabels:['タイトル','ジャンル','エンジン','プラットフォーム','価格','対応言語','発売日','ストアページ'],factValues:['DULAN','物語仕立ての大富豪','Phaser 3 + Vite + TypeScript、Electronパッケージ','Windows / itch.io','US$3.99（発売記念 US$2.99）','英語、繁体字中国語、日本語','未定','itch.io'],
-    spoiler:'ネタバレなしのみ——エンディングCGは掲載禁止',footer:'ZeppelinTsaiが贈る、物語仕立ての大富豪。',
+    footer:'ZeppelinTsaiが贈る、物語仕立ての大富豪。',
   }
 } as const;
 
