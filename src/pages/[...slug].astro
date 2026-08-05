@@ -20,7 +20,7 @@ const base=import.meta.env.BASE_URL.replace(/\/$/,'');
 {page==='home' && <>
   <section class="hero section-pad">
     <div class="hero-copy"><p class="eyebrow">A STORY-DRIVEN BIG TWO GAME</p><div class="hero-logo"><span>DULAN</span><small>{t.subtitle}</small></div><h1>{t.tagline}</h1><p class="lede">{t.intro}</p><div class="actions"><a class="button primary" href={itch}>{t.buy}<span>↗</span></a><a class="button ghost" href={youtube}>{t.trailer}<span>▶</span></a></div></div>
-    <div class="hero-art placeholder" aria-label="Official key art placeholder"><span class="card card-a">♠</span><span class="card card-b">♦</span><p>OFFICIAL KEY ART<br/><small>PLACEHOLDER</small></p></div>
+    <div class="hero-art key-art"><img src={`${base}/og-image.png`} alt="DULAN key art" width="1080" height="720" decoding="async" fetchpriority="high"/></div>
   </section>
   <section class="quick-features section-pad"><p class="eyebrow">THE GAME</p><div class="feature-line">{t.featureShort.map((x,i)=><article><span>0{i+1}</span><h2>{x}</h2></article>)}</div></section>
   <section class="cta-band"><p>{t.storyKicker}</p><a class="button primary" href={itch}>{t.buy}<span>↗</span></a></section>

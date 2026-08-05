@@ -14,3 +14,5 @@
 .story-casino{overflow:hidden;border:1px solid var(--line);background:var(--panel)}
 .story-casino img{display:block;width:100%;height:auto}
 .story-layout .prose{max-width:900px;margin:0 auto}
+.hero-art.key-art{aspect-ratio:3/2;max-height:none;border:1px solid var(--line);background:var(--panel)}
+.hero-art.key-art img{display:block;width:100%;height:100%;object-fit:cover}
