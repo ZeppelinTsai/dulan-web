@@ -36,7 +36,7 @@ const bios = {
 
 export const copy = {
   en: {
-    nav:['Home','Story','Characters','System','Download'], label:'English', subtitle:'Rigged', tagline:'Shuffle the cards. Not your life.',
+    nav:['Home','Story','Characters','System','Download'], label:'English', subtitle:'Rigged', tagline:'Cards can be reshuffled. Life cannot always be.',
     intro:'A story-driven Big Two game about debt, nerve, and the hand you were dealt.', buy:'Get it on itch.io', trailer:'Watch trailer',
     pageTitles:{story:'The invitation',characters:'Faces at the table',system:'Play the hand',download:'Download & Press Kit'},
     story:[
@@ -64,7 +64,7 @@ export const copy = {
     spoiler:'Non-spoiler only — do not include ending CG', footer:'A story-driven Big Two game by ZeppelinTsai.',
   },
   'zh-tw': {
-    nav:['首頁','故事','人物','系統','下載'], label:'繁體中文', subtitle:'賭爛', tagline:'洗的是牌，不是你的人生。',
+    nav:['首頁','故事','人物','系統','下載'], label:'繁體中文', subtitle:'賭爛', tagline:'牌可以重洗，人生不一定。',
     intro:'一款關於債務、膽識與命運手牌的劇情式大老二遊戲。', buy:'前往 itch.io', trailer:'觀看預告',
     pageTitles:{story:'那封邀請函',characters:'牌桌上的眾人',system:'打好這手牌',download:'下載與媒體資料'},
     story:['你是伍告雖——負債累累、失業在家，還被討債人窮追不捨。一封邀請函，將你帶進傳說中的地下賭場 DULAN。在這裡，每一次勝利都能替你換來一線生機；每一次落敗，都可能讓你失去一切。','DULAN 從一個單純的問題出發：傳統牌類遊戲，能不能撐起一整段故事？遊戲沒有用 roguelike 或牌組構築系統重新發明大老二，而是完整保留玩家熟悉的規則，再讓一場完整的敘事冒險圍繞牌桌展開。'],
@@ -78,7 +78,7 @@ export const copy = {
     spoiler:'僅限無劇透內容——請勿放入結局 CG',footer:'ZeppelinTsai 製作的劇情式大老二遊戲。',
   },
   ja: {
-    nav:['ホーム','ストーリー','キャラクター','システム','ダウンロード'], label:'日本語', subtitle:'クソ賭け', tagline:'切るのはカードだけ。人生じゃない。',
+    nav:['ホーム','ストーリー','キャラクター','システム','ダウンロード'], label:'日本語', subtitle:'クソ賭け', tagline:'カードは配り直せる。人生は、そうとは限らない。',
     intro:'借金と度胸、そして配られた手札をめぐる、物語仕立ての大富豪ゲーム。',buy:'itch.io で入手',trailer:'トレーラーを見る',
     pageTitles:{story:'招待状',characters:'卓を囲む者たち',system:'この手札で勝負する',download:'ダウンロード＆プレスキット'},
     story:['あなたは不運のウー――借金まみれで職もなく、取り立て屋に追われる身。一通の招待状に導かれ、伝説の地下カジノ「DULAN」へ足を踏み入れる。勝てば生き延びるチャンスが増え、負ければすべてを失うかもしれない。','DULANが挑むのは、ひとつの素朴な問いだ。昔ながらのカードゲームだけで、物語を最後まで描けるのか？ 大富豪をローグライクやデッキ構築に作り変えるのではなく、馴染みあるルールはそのままに、一篇の物語を卓上で紡いでいく。'],
