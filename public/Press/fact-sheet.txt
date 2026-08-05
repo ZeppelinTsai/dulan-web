@@ -1,0 +1,29 @@
+DULAN (賭爛) — Fact Sheet
+
+Title: DULAN (賭爛)
+Genre: Story-driven card game / narrative adventure
+Engine: Phaser 3 + Vite + TypeScript (packaged for Windows via Electron)
+Platform: Windows (itch.io)
+Price: US$3.99 (launch discount: US$2.99)
+Languages: English, Traditional Chinese, Japanese
+Release Date: August 4, 2026
+Developer: ZeppelinTsai (solo, Taiwan-based)
+
+Store Page: https://zeppelintsai.itch.io/dulan
+Gameplay Video: https://youtu.be/OlMKSe15ncg
+
+About the Developer
+ZeppelinTsai is a solo indie developer based in Taiwan. DULAN is their first commercial release — designed, written, and programmed from the ground up, with AI-assisted art and music (fully disclosed on the store page).
+
+Key Features
+- Story-driven Big Two (Chinese Poker) campaign — original rules kept intact, not a roguelike or deckbuilder
+- Unique opponents, each with their own personality, room, soundtrack, and dialogue
+- One-time-use skill cards that can turn a losing hand around
+- Three endings, including a hidden True Ending
+- Unlockable character, CG, and music gallery
+- 5 manual save slots plus auto-save
+- Full keyboard, mouse, and controller support
+
+Contact
+Email: [coming soon]
+itch.io: https://zeppelintsai.itch.io
