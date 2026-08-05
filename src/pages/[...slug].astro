@@ -27,7 +27,7 @@ const base=import.meta.env.BASE_URL.replace(/\/$/,'');
 </>}
 {page==='story' && <>
   <section class="page-hero section-pad"><p class="eyebrow">THE STORY</p><h1>{t.pageTitles.story}</h1><p>{t.storyKicker}</p></section>
-  <section class="story-grid section-pad"><div class="story-art placeholder"><span>DULAN<br/>UNDERGROUND CASINO</span></div><div class="prose"><p>{t.story[0]}</p><hr/><p>{t.story[1]}</p></div></section>
+  <section class="story-layout section-pad"><div class="story-casino"><img src={`${base}/opening-casino-exterior.png`} alt={t.pageTitles.story} width="1774" height="887" decoding="async"/></div><div class="prose"><p>{t.story[0]}</p><hr/><p>{t.story[1]}</p></div></section>
   <section class="quote-band"><span>♠</span><p>{t.tagline}</p><span>♦</span></section>
 </>}
 {page==='characters' && <>
