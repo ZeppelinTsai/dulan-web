@@ -1,0 +1,41 @@
+---
+import '../styles/global.css';
+import { copy, pages, type Lang, type Page } from '../data/site';
+interface Props { lang: Lang; page: Page; title?: string; description?: string }
+const {lang,page,title,description}=Astro.props;
+const t=copy[lang];
+const base=import.meta.env.BASE_URL.replace(/\/$/,'');
+const path=(l:Lang,p:Page)=>`${base}/${l}/${p==='home'?'':`${p}/`}`;
+const languageNames={en:'EN','zh-tw':'繁中',ja:'日本語'};
+---
+<!doctype html>
+<html lang={lang}>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width" />
+  <meta name="theme-color" content="#0b0907" />
+  <meta name="description" content={description ?? t.intro} />
+  <link rel="icon" href={`${base}/favicon.svg`} />
+  <link rel="canonical" href={new URL(path(lang,page), Astro.site)} />
+  {(['en','zh-tw','ja'] as Lang[]).map(l=><link rel="alternate" hreflang={l} href={new URL(path(l,page),Astro.site)} />)}
+  <title>{title ? `${title} — DULAN` : 'DULAN — Rigged'}</title>
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href={path(lang,'home')} aria-label="DULAN home"><span>DULAN</span><small>{t.subtitle}</small></a>
+    <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false"><span></span><span></span></button>
+    <nav class="main-nav" aria-label="Main navigation">
+      {pages.map((p,i)=><a class:list={{active:p===page}} href={path(lang,p)}>{t.nav[i]}</a>)}
+    </nav>
+    <div class="lang-switch" aria-label="Language">
+      {(['en','zh-tw','ja'] as Lang[]).map(l=><a class:list={{active:l===lang}} href={path(l,page)} lang={l}>{languageNames[l]}</a>)}
+    </div>
+  </header>
+  <main><slot /></main>
+  <footer><a class="brand footer-brand" href={path(lang,'home')}><span>DULAN</span><small>{t.subtitle}</small></a><p>{t.footer}</p><p>© {new Date().getFullYear()} ZeppelinTsai</p></footer>
+  <script is:inline>
+    const button=document.querySelector('.menu-toggle');
+    button?.addEventListener('click',()=>{const open=document.body.classList.toggle('menu-open');button.setAttribute('aria-expanded',String(open))});
+  </script>
+</body>
+</html>

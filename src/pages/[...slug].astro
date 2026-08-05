@@ -1,0 +1,48 @@
+---
+import SiteLayout from '../layouts/SiteLayout.astro';
+import { copy, characters, langs, pages, type Lang, type Page } from '../data/site';
+export function getStaticPaths(){
+  const paths: {params:{slug:string},props:{lang:Lang,page:Page}}[]=[];
+  for(const lang of langs) for(const page of pages) paths.push({params:{slug:page==='home'?lang:`${lang}/${page}`},props:{lang,page}});
+  return paths;
+}
+const {lang,page}=Astro.props as {lang:Lang,page:Page};
+const t=copy[lang];
+const chars=characters(lang);
+const itch='https://zeppelintsai.itch.io/dulan';
+const youtube='https://youtu.be/OlMKSe15ncg';
+const assets=['Logo','Key Art','Character Art'];
+---
+<SiteLayout {lang} {page} title={page==='home'?undefined:page==='story'?t.pageTitles.story:page==='characters'?t.pageTitles.characters:page==='system'?t.pageTitles.system:t.pageTitles.download}>
+{page==='home' && <>
+  <section class="hero section-pad">
+    <div class="hero-copy"><p class="eyebrow">A STORY-DRIVEN BIG TWO GAME</p><div class="hero-logo"><span>DULAN</span><small>{t.subtitle}</small></div><h1>{t.tagline}</h1><p class="lede">{t.intro}</p><div class="actions"><a class="button primary" href={itch}>{t.buy}<span>↗</span></a><a class="button ghost" href={youtube}>{t.trailer}<span>▶</span></a></div></div>
+    <div class="hero-art placeholder" aria-label="Official key art placeholder"><span class="card card-a">♠</span><span class="card card-b">♦</span><p>OFFICIAL KEY ART<br/><small>PLACEHOLDER</small></p></div>
+  </section>
+  <section class="quick-features section-pad"><p class="eyebrow">THE GAME</p><div class="feature-line">{t.featureShort.map((x,i)=><article><span>0{i+1}</span><h2>{x}</h2></article>)}</div></section>
+  <section class="cta-band"><p>{t.storyKicker}</p><a class="button primary" href={itch}>{t.buy}<span>↗</span></a></section>
+</>}
+{page==='story' && <>
+  <section class="page-hero section-pad"><p class="eyebrow">THE STORY</p><h1>{t.pageTitles.story}</h1><p>{t.storyKicker}</p></section>
+  <section class="story-grid section-pad"><div class="story-art placeholder"><span>INVITATION<br/>№ 0524</span></div><div class="prose"><p>{t.story[0]}</p><hr/><p>{t.story[1]}</p></div></section>
+  <section class="quote-band"><span>♠</span><p>{t.tagline}</p><span>♦</span></section>
+</>}
+{page==='characters' && <>
+  <section class="page-hero section-pad"><p class="eyebrow">THE PLAYERS</p><h1>{t.pageTitles.characters}</h1><p>{t.characters}</p></section>
+  <section class="character-grid section-pad">{chars.map((c,i)=><article class="character-card"><div class="portrait placeholder"><span class="suit">{['♠','♣','♦','♥','♠','♦'][i]}</span><small>CHARACTER ART</small></div><div class="character-copy"><span class="number">{c.number}</span><h2>{c.name}</h2><p>{c.bio}</p></div></article>)}</section>
+</>}
+{page==='system' && <>
+  <section class="page-hero section-pad"><p class="eyebrow">THE SYSTEM</p><h1>{t.pageTitles.system}</h1><p>{t.intro}</p></section>
+  <section class="system-grid section-pad">{t.features.map((f,i)=><article><span class="system-icon">{['♠','♣','♦','♥','↻','▣','⌘','文'][i]}</span><div><small>0{i+1}</small><h2>{f[0]}</h2><p>{f[1]}</p></div></article>)}</section>
+  <section class="cta-band"><p>{t.tagline}</p><a class="button primary" href={itch}>{t.buy}<span>↗</span></a></section>
+</>}
+{page==='download' && <>
+  <section class="page-hero download-hero section-pad"><div><p class="eyebrow">GET THE GAME</p><h1>{t.pageTitles.download}</h1><p>{t.downloadIntro}</p></div><a class="button primary" href={itch}>{t.buy}<span>↗</span></a></section>
+  <section class="section-pad trailer-section"><div class="section-heading"><p class="eyebrow">TRAILER</p><h2>{t.trailer}</h2></div><div class="video"><iframe src="https://www.youtube-nocookie.com/embed/OlMKSe15ncg" title="DULAN trailer" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div></section>
+  <section class="section-pad"><div class="section-heading"><p class="eyebrow">PRESS KIT / 01</p><h2>{t.shotsTitle}</h2></div><div class="screenshots">{Array.from({length:6},(_,i)=><div class="screenshot placeholder"><span>{String(i+1).padStart(2,'0')}</span><small>{i===5?t.spoiler:'SCREENSHOT PLACEHOLDER'}</small></div>)}</div></section>
+  <section class="section-pad press-grid"><div><div class="section-heading"><p class="eyebrow">PRESS KIT / 02</p><h2>{t.assetsTitle}</h2></div><div class="asset-list">{assets.map(a=><div><span>{a}</span><small>{t.coming}</small><button disabled>↓</button></div>)}</div></div><div><div class="section-heading"><p class="eyebrow">PRESS KIT / 03</p><h2>{t.factsTitle}</h2></div><dl class="facts">{t.factLabels.map((l,i)=><><dt>{l}</dt><dd>{i===7?<a href={itch}>{t.factValues[i]} ↗</a>:t.factValues[i]}</dd></>)}</dl></div></section>
+  <section class="section-pad text-assets"><div class="copy-block"><div class="section-heading"><p class="eyebrow">PRESS KIT / 04</p><h2>{t.shortTitle}</h2></div><p id="short-copy">{t.short}</p><button class="copy-action" data-copy="short-copy">{t.copyButton}</button></div><div class="copy-block"><div class="section-heading"><p class="eyebrow">DEVELOPER</p><h2>{t.aboutTitle}</h2></div><p id="about-copy">{t.about}</p><button class="copy-action" data-copy="about-copy">{t.copyButton}</button></div></section>
+  <section class="contact section-pad"><div><p class="eyebrow">CONTACT</p><h2>{t.contactTitle}</h2></div><div class="contact-links"><span>Email — coming soon</span><a href={itch}>itch.io ↗</a><a href="https://www.youtube.com/watch?v=OlMKSe15ncg">YouTube ↗</a></div></section>
+  <script is:inline>document.querySelectorAll('.copy-action').forEach(b=>b.addEventListener('click',async()=>{const el=document.getElementById(b.dataset.copy);if(el){await navigator.clipboard.writeText(el.innerText);const old=b.innerText;b.innerText='✓';setTimeout(()=>b.innerText=old,1200)}}))</script>
+</>}
+</SiteLayout>
