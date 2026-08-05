@@ -21,3 +21,10 @@
   .hero{grid-template-columns:minmax(0,.82fr) minmax(0,1.18fr);gap:clamp(32px,4vw,64px)}
   .hero-art.key-art img{object-fit:contain}
 }
+.download-actions{display:flex;align-items:flex-start;justify-content:flex-end;gap:12px;flex-wrap:wrap;max-width:760px;margin-bottom:20px}
+.download-actions .button{gap:14px;white-space:nowrap}
+.button-icon{font-size:16px;line-height:1}
+.press-kit-action{display:flex;flex-direction:column;max-width:250px;gap:8px}
+.press-kit-action .button{width:100%}
+.press-kit-action small{color:var(--muted);font-size:10px;line-height:1.5}
+@media(max-width:800px){.download-actions{width:100%;margin-top:28px;display:grid}.download-actions .button,.press-kit-action{width:100%;max-width:none}.press-kit-action small{font-size:11px}}

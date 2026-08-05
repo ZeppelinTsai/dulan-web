@@ -34,7 +34,7 @@ const bios = {
 export const copy = {
   en: {
     nav:['Home','Story','Characters','System','Download'], label:'English', subtitle:'Rigged', tagline:'Cards can be reshuffled. Life cannot always be.',
-    intro:'A story-driven Big Two game about debt, nerve, and the hand you were dealt.', buy:'Get it on itch.io', trailer:'Watch trailer',
+    intro:'A story-driven Big Two game about debt, nerve, and the hand you were dealt.', buy:'Play on itch.io', trailer:'Watch Gameplay', pressKit:'Download Press Kit', pressKitHelp:'Logos, screenshots, character art, descriptions, trailer, and fact sheet.',
     pageTitles:{story:'The underground casino',characters:'Faces at the table',system:'Play the hand',download:'Download & Press Kit'},
     story:[
       'They call you Hardluck Wu—the unluckiest man alive. Drowning in debt, unemployed, hunted by collectors, you cannot even afford one extra piece of convenience-store oden. With nowhere left to turn, you arrive at the legendary underground casino, “DULAN.”',
@@ -62,7 +62,7 @@ export const copy = {
   },
   'zh-tw': {
     nav:['首頁','故事','人物','系統','下載'], label:'繁體中文', subtitle:'賭爛', tagline:'牌可以重洗，人生不一定。',
-    intro:'一款關於債務、膽識與命運手牌的劇情式大老二遊戲。', buy:'前往 itch.io', trailer:'觀看預告',
+    intro:'一款關於債務、膽識與命運手牌的劇情式大老二遊戲。', buy:'前往 itch.io 遊玩', trailer:'觀看遊戲影片', pressKit:'下載 Press Kit', pressKitHelp:'包含 Logo、遊戲截圖、角色立繪、介紹文案、預告片與遊戲資料表。',
     pageTitles:{story:'地下賭場「賭爛」',characters:'牌桌上的眾人',system:'打好這手牌',download:'下載與媒體資料'},
     story:['你叫伍告雖（有夠衰）。負債、失業、被討債，連便利商店的關東煮都不敢多夾一根。走投無路的你，來到傳說中的地下賭場「賭爛」。','擊敗擋在面前的對手，為翻轉人生賭上一切。但你不知道的是……這間賭場，隱藏了秘密……。'],
     storyKicker:'擊敗擋在面前的對手，為翻轉人生賭上一切。', featureShort:['劇情式大老二','令人難忘的對手','等待發掘的多重結局','一次性技能卡'],
@@ -76,7 +76,7 @@ export const copy = {
   },
   ja: {
     nav:['ホーム','ストーリー','キャラクター','システム','ダウンロード'], label:'日本語', subtitle:'クソ賭け', tagline:'カードは配り直せる。人生は、そうとは限らない。',
-    intro:'借金と度胸、そして配られた手札をめぐる、物語仕立ての大富豪ゲーム。',buy:'itch.io で入手',trailer:'トレーラーを見る',
+    intro:'借金と度胸、そして配られた手札をめぐる、物語仕立ての大富豪ゲーム。',buy:'itch.io でプレイ',trailer:'ゲームプレイを見る',pressKit:'プレスキットをダウンロード',pressKitHelp:'ロゴ、スクリーンショット、キャラクター画像、紹介文、トレーラー、ファクトシートを収録。',
     pageTitles:{story:'地下カジノ「賭爛」',characters:'卓を囲む者たち',system:'この手札で勝負する',download:'ダウンロード＆プレスキット'},
     story:['あなたの名は「不運のウー」。借金、失業、借金取りに追われ、コンビニのおでんすら一本多く取れない。追い詰められたあなたは、伝説の地下カジノ「賭爛」へ辿り着く。','立ちはだかる相手を倒し、人生を逆転するためにすべてを賭けろ。だが、あなたはまだ知らない……このカジノに隠された秘密を……。'],
     storyKicker:'立ちはだかる相手を倒し、人生を逆転するためにすべてを賭けろ。',featureShort:['物語で進む大富豪','忘れられない対戦相手','自分で見つける複数の結末','使い切りのスキルカード'],
