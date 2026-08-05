@@ -30,3 +30,7 @@
 .asset-list>div>a{width:40px;height:40px;display:grid;place-items:center;border:1px solid var(--gold);color:var(--gold);transition:.2s}
 .asset-list>div>a:hover,.asset-list>div>a:focus-visible{background:var(--gold);color:var(--ink)}
 @media(max-width:800px){.download-actions{width:100%;margin-top:28px;display:grid}.download-actions .button,.press-kit-action{width:100%;max-width:none}.press-kit-action small{font-size:11px}}
+.story-cta{display:flex;align-items:center;justify-content:space-between;gap:48px}
+.story-cta h2{font:500 clamp(30px,4vw,52px)/1.2 Oswald,'Noto Sans TC',sans-serif;color:var(--bright);margin:10px 0}
+.story-cta>div>p:last-child{color:var(--muted);margin:0}
+@media(max-width:800px){.story-cta{align-items:flex-start;flex-direction:column}.story-cta .button{width:100%}}

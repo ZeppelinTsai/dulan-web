@@ -21,7 +21,7 @@ const characterImages=['hero','da-tian-bin','jin-bai-jia','zhua-pa-zi','lao-you-
 const screenshots=['01-main-menu.png','02-story-opening.png','03-dopey-dan-intro.png','04-big-two-battle.png','05-boss-defeat.png','06-gallery-mode.png'];
 const base=import.meta.env.BASE_URL.replace(/\/$/,'');
 ---
-<SiteLayout {lang} {page} title={page==='home'?undefined:page==='story'?t.pageTitles.story:page==='characters'?t.pageTitles.characters:page==='system'?t.pageTitles.system:t.pageTitles.download}>
+<SiteLayout {lang} {page} title={page==='home'?undefined:page==='story'?t.pageTitles.story:page==='characters'?t.pageTitles.characters:page==='system'?t.pageTitles.system:t.pageTitles.download} description={page==='story'?t.storySeo:undefined}>
 {page==='home' && <>
   <section class="hero section-pad">
     <div class="hero-copy"><p class="eyebrow">A STORY-DRIVEN BIG TWO GAME</p><div class="hero-logo"><span>DULAN</span><small>{t.subtitle}</small></div><h1>{t.tagline}</h1><p class="lede">{t.intro}</p><div class="actions"><a class="button primary" href={itch}>{t.buy}<span>↗</span></a><a class="button ghost" href={youtube}>{t.trailer}<span>▶</span></a></div></div>
@@ -34,6 +34,7 @@ const base=import.meta.env.BASE_URL.replace(/\/$/,'');
   <section class="page-hero section-pad"><p class="eyebrow">THE STORY</p><h1>{t.pageTitles.story}</h1><p>{t.storyKicker}</p></section>
   <section class="story-layout section-pad"><div class="story-casino"><img src={`${base}/opening-casino-exterior.png`} alt={t.pageTitles.story} width="1774" height="887" decoding="async"/></div><div class="prose"><p>{t.story[0]}</p><hr/><p>{t.story[1]}</p></div></section>
   <section class="quote-band"><span>♠</span><p>{t.tagline}</p><span>♦</span></section>
+  <section class="story-cta section-pad"><div><p class="eyebrow">THE NEXT HAND</p><h2>{t.storyCtaTitle}</h2><p>{t.storyCtaText}</p></div><a class="button primary" href={itch} target="_blank" rel="noopener noreferrer">{t.buy}<span>↗</span></a></section>
 </>}
 {page==='characters' && <>
   <section class="page-hero section-pad"><p class="eyebrow">THE PLAYERS</p><h1>{t.pageTitles.characters}</h1><p>{t.characters}</p></section>
