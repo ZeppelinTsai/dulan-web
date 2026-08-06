@@ -22,7 +22,7 @@ Key Features
 - Three endings, including a hidden True Ending
 - Unlockable character, CG, and music gallery
 - 5 manual save slots plus auto-save
-- Full keyboard, mouse, and controller support
+- Full keyboard and mouse support
 
 Contact
 Email: zeppelintsai@gmail.com

@@ -6,4 +6,4 @@ distinct opponents stand between you and the truth behind this casino, each with
 
 One-time-use skill cards — peek at your opponent's hand, swap a card, or force them to pass — can turn a losing hand around. But how you win matters just as much as whether you win: three distinct endings await, including a hidden True Ending reserved for those who finish the game without ever relying on a skill.
 
-DULAN was designed, written, and programmed solo by a Taiwan-based developer, with AI-assisted art and music (fully disclosed on the store page). It supports English, Traditional Chinese, and Japanese, with full keyboard, mouse, and controller support.
+DULAN was designed, written, and programmed solo by a Taiwan-based developer, with AI-assisted art and music (fully disclosed on the store page). It supports English, Traditional Chinese, and Japanese, with full keyboard and mouse support.
