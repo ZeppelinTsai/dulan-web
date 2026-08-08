@@ -1,6 +1,6 @@
 You are Hardluck Wu — drowning in debt, unemployed, hunted by collectors. With nowhere left to turn, you arrive at DULAN, a legendary underground casino where every victory buys another chance to survive, and every loss might cost you everything.
 
-DULAN is built around a simple question: could a traditional card game carry an entire story? Rather than reinventing Big Two (Chinese Poker) with roguelike mechanics or deckbuilding systems, this game keeps the familiar rules exactly as they are — and wraps a complete narrative adventure around them.
+DULAN is built around a simple question: could a traditional card game carry an entire story? Rather than reinventing Big Two with roguelike mechanics or deckbuilding systems, this game keeps the familiar rules exactly as they are — and wraps a complete narrative adventure around them.
 
 distinct opponents stand between you and the truth behind this casino, each with a fully realized personality: a gluttonous fool who can't stop talking about food, a gaudy nouveau-riche showoff, a venomous schemer hiding behind a sweet smile, a patient old fox who speaks only in proverbs. Every opponent has their own room, their own soundtrack, and dialogue that reacts throughout the match — taunts, impatience, and reactions to how close you are to winning or losing.
 

@@ -36,10 +36,10 @@ export const copy = {
     nav:['Home','Story','Characters','System','Download'], label:'English', subtitle:'Rigged', tagline:'Cards can be reshuffled. Life cannot always be.',
     intro:'A story-driven Big Two game about debt, nerve, and the hand you were dealt.', buy:'Buy on itch.io', trailer:'Watch Gameplay', pressKit:'Download Press Kit', pressKitHelp:'Logos, screenshots, character art, descriptions, trailer, and fact sheet.',
     pageTitles:{story:'The underground casino',characters:'Faces at the table',system:'Play the hand',download:'Download & Press Kit'},
-    storySeo:'Enter DULAN, a story-driven Big Two (Chinese Poker) narrative card game set inside a secretive underground casino.',
+    storySeo:'Enter DULAN, a story-driven Big Two narrative card game set inside a secretive underground casino.',
     story:[
       'They call you Hardluck Wu—the unluckiest man alive. Drowning in debt, unemployed, hunted by collectors, you cannot even afford one extra piece of convenience-store oden. With nowhere left to turn, you arrive at the legendary underground casino, “DULAN.” Every victory buys another chance to survive. Every defeat pushes you deeper into the casino.',
-      'DULAN is a story-driven Big Two (Chinese Poker) narrative card game that keeps the familiar rules intact and builds a complete adventure around the card table. Beat the opponents standing in your way and wager everything on a chance to turn your life around. But there is something you do not know… This casino is hiding a secret…'
+      'DULAN is a story-driven Big Two narrative card game that keeps the familiar rules intact and builds a complete adventure around the card table. Beat the opponents standing in your way and wager everything on a chance to turn your life around. But there is something you do not know… This casino is hiding a secret…'
     ],
     storyKicker:'Beat the opponents standing in your way and wager everything on a chance to turn your life around.',
     storyCtaTitle:'Curious what lies beneath the casino?',storyCtaText:'Some stories can only be discovered at the card table.',
@@ -57,7 +57,7 @@ export const copy = {
     characters:'Players from every walk of life—each with something they cannot lay on the table.',
     downloadIntro:'DULAN is now available on Windows. Launch price US$2.99; regular price US$3.99.',
     shortTitle:'Short description', factsTitle:'Key facts', assetsTitle:'Media assets', shotsTitle:'Screenshots', aboutTitle:'About the developer', contactTitle:'Contact', copyButton:'Copy text', assetLinkLabel:'Open in Google Drive',
-    short:'DULAN is a story-driven Big Two (Chinese Poker) game. Buried in debt, you enter an underground casino and face distinct opponents, each with their own personality, room, music, and dialogue. Instead of reinventing Big Two with roguelike or deckbuilding mechanics, DULAN keeps the original rules intact and wraps a full narrative adventure around them. One-time-use skill cards can turn a losing hand around, and how you play determines the ending you discover. Built solo in Taiwan, DULAN supports English, Traditional Chinese, and Japanese.',
+    short:'DULAN is a story-driven Big Two game. Buried in debt, you enter an underground casino and face distinct opponents, each with their own personality, room, music, and dialogue. Instead of reinventing Big Two with roguelike or deckbuilding mechanics, DULAN keeps the original rules intact and wraps a full narrative adventure around them. One-time-use skill cards can turn a losing hand around, and how you play determines the ending you discover. Built solo in Taiwan, DULAN supports English, Traditional Chinese, and Japanese.',
     about:'ZeppelinTsai is a solo indie developer based in Taiwan. DULAN is their first commercial release — designed, written, and programmed from the ground up, with AI-assisted art and music.',
     factLabels:['Title','Genre','Engine','Platform','Price','Languages','Release date','Store page'], factValues:['DULAN','Story-driven Big Two','Phaser 3 + Vite + TypeScript, packaged via Electron','Windows / itch.io','US$3.99 (launch offer US$2.99)','English, Traditional Chinese, Japanese','August 4, 2026','itch.io'],
     footer:'A story-driven Big Two game by ZeppelinTsai.',

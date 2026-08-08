@@ -16,7 +16,7 @@ About the Developer
 ZeppelinTsai is a solo indie developer based in Taiwan. DULAN is their first commercial release — designed, written, and programmed from the ground up, with AI-assisted art and music (fully disclosed on the store page).
 
 Key Features
-- Story-driven Big Two (Chinese Poker) campaign — original rules kept intact, not a roguelike or deckbuilder
+- Story-driven Big Two campaign — original rules kept intact, not a roguelike or deckbuilder
 - Unique opponents, each with their own personality, room, soundtrack, and dialogue
 - One-time-use skill cards that can turn a losing hand around
 - Three endings, including a hidden True Ending
