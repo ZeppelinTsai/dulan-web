@@ -8,6 +8,7 @@ Price: US$3.99 (launch discount: US$2.99)
 Languages: English, Traditional Chinese, Japanese
 Release Date: August 4, 2026
 Developer: ZeppelinTsai (solo, Taiwan-based)
+Playtime: Around 10–30 minutes per playthrough
 
 Store Page: https://zeppelintsai.itch.io/dulan
 Gameplay Video: https://youtu.be/OlMKSe15ncg
@@ -17,6 +18,8 @@ ZeppelinTsai is a solo indie developer based in Taiwan. DULAN is their first com
 
 Key Features
 - Story-driven Big Two campaign — original rules kept intact, not a roguelike or deckbuilder
+- Optional Big Two tutorial for first-time players
+- Short and replayable — around 10–30 minutes per playthrough
 - Unique opponents, each with their own personality, room, soundtrack, and dialogue
 - One-time-use skill cards that can turn a losing hand around
 - Three endings, including a hidden True Ending

@@ -34,3 +34,8 @@
 .story-cta h2{font:500 clamp(30px,4vw,52px)/1.2 Oswald,'Noto Sans TC',sans-serif;color:var(--bright);margin:10px 0}
 .story-cta>div>p:last-child{color:var(--muted);margin:0}
 @media(max-width:800px){.story-cta{align-items:flex-start;flex-direction:column}.story-cta .button{width:100%}}
+.system-grid h2,.system-grid p{overflow-wrap:anywhere}
+.system-grid article>div{min-width:0}
+.page-hero>p:last-child{overflow-wrap:anywhere}
+@media(max-width:800px){.system-grid{grid-template-columns:minmax(0,1fr);width:100%}.system-grid article{grid-template-columns:48px minmax(0,1fr);gap:12px}}
+@media(max-width:800px){.site-header{gap:10px}.brand{flex-shrink:1}.lang-switch{flex-shrink:0}}

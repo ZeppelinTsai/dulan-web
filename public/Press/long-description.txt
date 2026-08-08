@@ -2,8 +2,12 @@ You are Hardluck Wu — drowning in debt, unemployed, hunted by collectors. With
 
 DULAN is built around a simple question: could a traditional card game carry an entire story? Rather than reinventing Big Two with roguelike mechanics or deckbuilding systems, this game keeps the familiar rules exactly as they are — and wraps a complete narrative adventure around them.
 
+Never played Big Two? No problem. DULAN includes an optional in-game tutorial designed for first-time players, teaching the basic rules through an actual match.
+
 distinct opponents stand between you and the truth behind this casino, each with a fully realized personality: a gluttonous fool who can't stop talking about food, a gaudy nouveau-riche showoff, a venomous schemer hiding behind a sweet smile, a patient old fox who speaks only in proverbs. Every opponent has their own room, their own soundtrack, and dialogue that reacts throughout the match — taunts, impatience, and reactions to how close you are to winning or losing.
 
 One-time-use skill cards — peek at your opponent's hand, swap a card, or force them to pass — can turn a losing hand around. But how you win matters just as much as whether you win: three distinct endings await, including a hidden True Ending reserved for those who finish the game without ever relying on a skill.
+
+A single playthrough typically takes around 10–30 minutes, depending on playstyle. The three endings and unlockable character, CG, and music gallery make DULAN a short experience built to be replayed.
 
 DULAN was designed, written, and programmed solo by a Taiwan-based developer, with AI-assisted art and music (fully disclosed on the store page). It supports English, Traditional Chinese, and Japanese, with full keyboard and mouse support.
