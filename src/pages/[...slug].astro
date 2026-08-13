@@ -43,7 +43,7 @@ const assets=[
   {name:'Character Art',url:'https://drive.google.com/drive/folders/107LJrurYIE_UMeyS6MJfvCcLp6sKtnOJ?usp=drive_link'},
 ];
 const characterImages=['hero','da-tian-bin','jin-bai-jia','zhua-pa-zi','lao-you-tiao'];
-const screenshots=[...(lang==='zh-tw'?[]:['00-promotion.png']),'01-main-menu.png','02-story-opening.png','03-dopey-dan-intro.png','04-big-two-battle.png','05-boss-defeat.png','06-gallery-mode.png'];
+const screenshots=['01-main-menu.png','02-story-opening.png','03-dopey-dan-intro.png','04-big-two-battle.png','05-boss-defeat.png','06-gallery-mode.png'];
 const base=import.meta.env.BASE_URL.replace(/\/$/,'');
 const publicPath=(...parts:string[])=>`${base}/${parts.filter(Boolean).join('/')}`;
 const keyArt=publicPath(`og-image${media.imageSuffix}.png`);
