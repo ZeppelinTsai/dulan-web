@@ -103,7 +103,7 @@ export const copy = {
     characters:
       "Players from every walk of life—each with something they cannot lay on the table.",
     downloadIntro:
-      "DULAN is now available on Windows. Launch price US$2.99; regular price US$3.99.",
+      "DULAN is now available on Windows for US$3.99.",
     shortTitle: "Short description",
     factsTitle: "Key facts",
     assetsTitle: "Media assets",
@@ -135,7 +135,7 @@ export const copy = {
       "Three, including a hidden True Ending",
       "Phaser 3 + Vite + TypeScript, packaged via Electron",
       "Windows / itch.io",
-      "US$3.99 (launch offer US$2.99)",
+      "US$3.99",
       "English, Traditional Chinese, Japanese",
       "August 4, 2026",
       "itch.io",
@@ -198,7 +198,7 @@ export const copy = {
     ],
     characters: "各路牌客，各有不能攤在桌面上的理由。",
     downloadIntro:
-      "DULAN 現已於 Windows 平台正式推出。首發優惠 US$2.99，原價 US$3.99。",
+      "DULAN 現已於 Windows 平台正式推出，售價 US$3.99。",
     shortTitle: "遊戲簡介",
     factsTitle: "基本資料",
     assetsTitle: "媒體素材",
@@ -230,7 +230,7 @@ export const copy = {
       "三種，包含隱藏真結局",
       "Phaser 3 + Vite + TypeScript，Electron 封裝",
       "Windows / itch.io",
-      "US$3.99（首發優惠 US$2.99）",
+      "US$3.99",
       "英文、繁體中文、日文",
       "2026年8月4日",
       "itch.io",
@@ -300,7 +300,7 @@ export const copy = {
     ],
     characters: "さまざまな勝負師。それぞれに、卓上では明かせない理由がある。",
     downloadIntro:
-      "DULAN Windows版は好評配信中。発売記念価格 US$2.99、通常価格 US$3.99。",
+      "DULAN Windows版は好評配信中。価格は US$3.99。",
     shortTitle: "ショート紹介",
     factsTitle: "基本情報",
     assetsTitle: "メディア素材",
@@ -332,7 +332,7 @@ export const copy = {
       "3種類（隠しTrue Endingを含む）",
       "Phaser 3 + Vite + TypeScript、Electronパッケージ",
       "Windows / itch.io",
-      "US$3.99（発売記念 US$2.99）",
+      "US$3.99",
       "英語、繁体字中国語、日本語",
       "2026年8月4日",
       "itch.io",

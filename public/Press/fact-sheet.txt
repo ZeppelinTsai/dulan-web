@@ -4,7 +4,7 @@ Title: DULAN (賭爛)
 Genre: Story-driven card game / narrative adventure
 Engine: Phaser 3 + Vite + TypeScript (packaged for Windows via Electron)
 Platform: Windows (itch.io)
-Price: US$3.99 (launch discount: US$2.99)
+Price: US$3.99
 Languages: English, Traditional Chinese, Japanese
 Release Date: August 4, 2026
 Developer: ZeppelinTsai (solo, Taiwan-based)
