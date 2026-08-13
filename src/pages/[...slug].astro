@@ -52,6 +52,9 @@ const screenshotPath=(file:string)=>publicPath('screenshot',media.screenshotDir,
 const characterWebp=(file:string)=>file==='da-tian-bin'
   ? publicPath('characters','localized',media.characterDir,`${file}.webp`)
   : publicPath('characters',`${file}.webp`);
+const characterPng=(file:string)=>file==='da-tian-bin' && lang!=='ja'
+  ? publicPath('characters','localized',media.characterDir,`${file}.png`)
+  : publicPath('characters',`${file}.png`);
 ---
 <SiteLayout {lang} {page} title={page==='home'?undefined:page==='story'?t.pageTitles.story:page==='characters'?t.pageTitles.characters:page==='system'?t.pageTitles.system:t.pageTitles.download} description={page==='story'?t.storySeo:undefined}>
 {page==='home' && <>
@@ -72,7 +75,7 @@ const characterWebp=(file:string)=>file==='da-tian-bin'
   <section class="page-hero section-pad"><p class="eyebrow">THE PLAYERS</p><h1>{t.pageTitles.characters}</h1><p>{t.characters}</p></section>
   <section class="character-grid section-pad">{chars.map((c,i)=><article class="character-card">
     <div class="portrait placeholder">{i < characterImages.length ? (
-      <picture><source srcset={characterWebp(characterImages[i])} type="image/webp"/><img src={`${base}/characters/${characterImages[i]}.png`} alt={c.name} width="1024" height="1536" loading={i < 2 ? 'eager' : 'lazy'} decoding="async"/></picture>
+      <picture><source srcset={characterWebp(characterImages[i])} type="image/webp"/><img src={characterPng(characterImages[i])} alt={c.name} width="1024" height="1536" loading={i < 2 ? 'eager' : 'lazy'} decoding="async"/></picture>
     ) : (
       <><span class="suit">♦</span><small>CLASSIFIED</small></>
     )}</div>
